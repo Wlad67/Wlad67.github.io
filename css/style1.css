@@ -1,0 +1,53 @@
+body{
+    background-color: #000000;
+}
+
+.butt{
+    display: inline-block;
+    margin-bottom: 350px;
+    margin-left: -25px;
+}
+.butt .minus {
+    display: block;
+    margin-bottom: -15px;
+    margin-left: -30px;
+    width: 200px;
+    height: 30px;
+}
+.butt #dos:hover{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    transition: 0.8s ease-out;
+}
+.hello{
+    display: inline-block;
+    margin-left: -80px;
+}
+.hello img{
+    display: block;
+}
+
+.hello img{
+    width: 180px;
+    height: 55px;
+    margin-bottom: 10px;
+}
+.hello img:hover{
+    transform: rotate(-8deg);
+    transition: 0.5s ease-out;
+}
+.tempo{
+    margin-bottom: 340px;
+    margin-left: 0px;
+    width: 50px;
+    height: 50px;
+    transform: rotate(-90deg);
+}
+.tempo2{
+    display: none;
+    margin-bottom: 340px;
+    margin-left: 8px;
+    width: 50px;
+    height: 50px;
+    transform: rotate(90deg);
+}
